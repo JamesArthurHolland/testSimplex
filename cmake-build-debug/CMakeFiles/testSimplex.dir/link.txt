@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/testSimplex.dir/main.cpp.o  -o testSimplex /usr/lib/x86_64-linux-gnu/libClp.so cpplex/pilal/libpilal.a cpplex/simplex/libsimplex.a 

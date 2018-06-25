@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpilal.a  CMakeFiles/pilal.dir/src/matrix.cc.o
+/usr/bin/ranlib libpilal.a

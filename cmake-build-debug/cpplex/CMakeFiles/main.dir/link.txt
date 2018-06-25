@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -O3 -g  -rdynamic CMakeFiles/main.dir/solver/solver.cc.o  -o main pilal/libpilal.a simplex/libsimplex.a 

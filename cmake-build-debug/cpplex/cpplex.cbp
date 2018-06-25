@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cpplex"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cpplex\;CMake Files\cpplex\pilal\;CMake Files\cpplex\simplex\;CMake Files\cmakeModules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jamie/Documents/testSimplex/cpplex/pilal/include"/>
+					<Add directory="/home/jamie/Documents/testSimplex/cpplex/simplex/include"/>
+					<Add directory="/home/jamie/Documents/testSimplex/cpplex/pilal/./include"/>
+					<Add directory="/home/jamie/Documents/testSimplex/cpplex/simplex/./include"/>
+					<Add directory="/home/jamie/Documents/testSimplex/cpplex/simplex/../pilal/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jamie/Documents/testSimplex/cpplex/pilal/include"/>
+					<Add directory="/home/jamie/Documents/testSimplex/cpplex/simplex/include"/>
+					<Add directory="/home/jamie/Documents/testSimplex/cpplex/pilal/./include"/>
+					<Add directory="/home/jamie/Documents/testSimplex/cpplex/simplex/./include"/>
+					<Add directory="/home/jamie/Documents/testSimplex/cpplex/simplex/../pilal/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pilal">
+				<Option output="/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/pilal/libpilal.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/pilal"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jamie/Documents/testSimplex/cpplex/pilal/./include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/pilal/Makefile&quot;  VERBOSE=1 pilal"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/pilal/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/pilal/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/pilal/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pilal/fast">
+				<Option output="/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/pilal/libpilal.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/pilal"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jamie/Documents/testSimplex/cpplex/pilal/./include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/pilal/Makefile&quot;  VERBOSE=1 pilal/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/pilal/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/pilal/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/pilal/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simplex">
+				<Option output="/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/simplex/libsimplex.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/simplex"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jamie/Documents/testSimplex/cpplex/simplex/./include"/>
+					<Add directory="/home/jamie/Documents/testSimplex/cpplex/simplex/../pilal/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/simplex/Makefile&quot;  VERBOSE=1 simplex"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/simplex/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/simplex/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/simplex/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simplex/fast">
+				<Option output="/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/simplex/libsimplex.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/simplex"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jamie/Documents/testSimplex/cpplex/simplex/./include"/>
+					<Add directory="/home/jamie/Documents/testSimplex/cpplex/simplex/../pilal/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/simplex/Makefile&quot;  VERBOSE=1 simplex/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/simplex/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/simplex/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jamie/Documents/testSimplex/cmake-build-debug/cpplex/simplex/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jamie/Documents/testSimplex/cpplex/pilal/src/matrix.cc">
+			<Option target="pilal"/>
+		</Unit>
+		<Unit filename="/home/jamie/Documents/testSimplex/cpplex/simplex/src/columnset.cc">
+			<Option target="simplex"/>
+		</Unit>
+		<Unit filename="/home/jamie/Documents/testSimplex/cpplex/simplex/src/constraint.cc">
+			<Option target="simplex"/>
+		</Unit>
+		<Unit filename="/home/jamie/Documents/testSimplex/cpplex/simplex/src/objectivefunction.cc">
+			<Option target="simplex"/>
+		</Unit>
+		<Unit filename="/home/jamie/Documents/testSimplex/cpplex/simplex/src/simplex.cc">
+			<Option target="simplex"/>
+		</Unit>
+		<Unit filename="/home/jamie/Documents/testSimplex/cpplex/simplex/src/variable.cc">
+			<Option target="simplex"/>
+		</Unit>
+		<Unit filename="/home/jamie/Documents/testSimplex/cpplex/solver/solver.cc">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/jamie/Documents/testSimplex/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jamie/Documents/testSimplex/cpplex/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpplex\"/>
+		</Unit>
+		<Unit filename="/home/jamie/Documents/testSimplex/cpplex/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpplex\"/>
+		</Unit>
+		<Unit filename="/home/jamie/Documents/testSimplex/cpplex/pilal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpplex\pilal\"/>
+		</Unit>
+		<Unit filename="/home/jamie/Documents/testSimplex/cpplex/pilal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpplex\pilal\"/>
+		</Unit>
+		<Unit filename="/home/jamie/Documents/testSimplex/cpplex/pilal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpplex\pilal\"/>
+		</Unit>
+		<Unit filename="/home/jamie/Documents/testSimplex/cpplex/simplex/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpplex\simplex\"/>
+		</Unit>
+		<Unit filename="/home/jamie/Documents/testSimplex/cpplex/simplex/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpplex\simplex\"/>
+		</Unit>
+		<Unit filename="/home/jamie/Documents/testSimplex/cpplex/simplex/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpplex\simplex\"/>
+		</Unit>
+		<Unit filename="/home/jamie/Documents/testSimplex/cmakeModules/FindCLP.cmake">
+			<Option virtualFolder="CMake Files\cmakeModules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

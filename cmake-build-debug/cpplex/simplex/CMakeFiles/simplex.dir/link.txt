@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsimplex.a  CMakeFiles/simplex.dir/src/columnset.cc.o CMakeFiles/simplex.dir/src/constraint.cc.o CMakeFiles/simplex.dir/src/objectivefunction.cc.o CMakeFiles/simplex.dir/src/simplex.cc.o CMakeFiles/simplex.dir/src/variable.cc.o
+/usr/bin/ranlib libsimplex.a
